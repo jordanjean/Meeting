@@ -1,6 +1,8 @@
-Meeting is an Android mobile application to organize meetings events.
+Meeting is an native Android mobile application to organize meetings events.
 
-Contact: Jordan JEAN at jordan.jean73540@gmail.com.
+GitLab: https://gitlab.com/Jordan.Jean/meeting.git
+
+Contact: Jordan JEAN at jordan.jean73540@gmail.com
 
 -------------------------------------------REMARKS--------------------------------------------------
 

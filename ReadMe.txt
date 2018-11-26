@@ -8,6 +8,18 @@ Contact: Jordan JEAN at jordan.jean73540@gmail.com
 
 The API level 24 has been used.
 
+--------------------------------------------TIPS----------------------------------------------------
+
+* Use swipe from left to right gesture to come back to meeting list from a meeting detail page.
+
+* Touch the underlined location in a meeting detail page to see the meeting location on a map.
+
+* To add a meeting to Google Calendar, use "Add to Google Calendar" option in the overflow menu
+  of a meeting detail page.
+  This can also be performed by checking the checkbox while creating a meeting.
+
+All other features have been designed to don't need any using instruction.
+
 ---------------------------------------EXTRA FEATURES-----------------------------------------------
 
 * Google Calendar event insertion makes it possible to add a meeting to a specified 

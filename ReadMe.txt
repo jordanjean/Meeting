@@ -8,8 +8,6 @@ Contact: Jordan JEAN at jordan.jean73540@gmail.com
 
 * The API level 24 has been used.
 
-* The .apk file id located here: /app/build/outputs/apk/debug/app-debug.apk.
-
 --------------------------------------------TIPS----------------------------------------------------
 
 * Use swipe from left to right gesture to come back to meeting list from a meeting detail page.

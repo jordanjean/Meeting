@@ -64,8 +64,9 @@ The project is arranged in several packages:
 * The "adapters" package contains the TabsPagerAdapter used by the meetings lists 
   tabs implemented in the MainActivity activity.
 
-* The package "components" contains the UnrolledListView activity which extends 
+* The package "components" contains the UnrolledListView class which extends the
   ListView object to hack the ListView component by overriding the onMeasure method.
+  This component makes it possible to use an unrolled ListView inside a SrollView.
   The idea of this hack has been found on Stackoverflow (see link on the comment
   in the class).
 

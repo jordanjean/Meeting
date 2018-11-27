@@ -159,7 +159,7 @@ public class GoogleCalendarTask extends AsyncTask<Void, Void, String> {
             eventAttendee.setDisplayName(attendee.name);
 
             /* Email is mandatory for the API request */
-            eventAttendee.setEmail(activity.getString(R.string.google_calendar_email_example));
+            eventAttendee.setEmail(attendee.name + activity.getString(R.string.google_calendar_email_example));
             attendees.add(eventAttendee);
             Log.d(tag, "GoogleCalendarTask " + attendee.name + " added to attendees");
         }

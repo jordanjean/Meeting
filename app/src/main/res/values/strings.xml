@@ -61,5 +61,5 @@
     <string name="meeting_name_field">Meeting name</string>
     <string name="tab_title_current_meeting">Upcoming</string>
     <string name="tab_title_past_meeting">Past</string>
-    <string name="google_calendar_email_example">\example@email.com</string>
+    <string name="google_calendar_email_example">\@email.com</string>
 </resources>

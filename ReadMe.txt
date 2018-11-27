@@ -30,7 +30,7 @@ creation, but it can also be triggered in a second time after this last one.
 The Google Calendar event insert is set to send a notification to the user 
 10 minutes before the meeting time. 
 
-* Meetings are classified in two lists: the current meetings and the past meetings.
+* Meetings are classified in two lists: the upcoming meetings and the past meetings.
 Both meetings lists are ordered by date and the date is printed.
 
 ----------------------------------------CLASSES DESCRIPTION-----------------------------------------

@@ -6,7 +6,9 @@ Contact: Jordan JEAN at jordan.jean73540@gmail.com
 
 -------------------------------------------REMARKS--------------------------------------------------
 
-The API level 24 has been used.
+* The API level 24 has been used.
+
+* The .apk file id located here: /app/build/outputs/apk/debug/app-debug.apk.
 
 --------------------------------------------TIPS----------------------------------------------------
 
@@ -18,7 +20,7 @@ The API level 24 has been used.
   of a meeting detail page.
   This can also be performed by checking the checkbox while creating a meeting.
 
-All other features have been designed to don't need any using instruction.
+All other features have been designed such a way that they do not need any using instruction.
 
 ---------------------------------------EXTRA FEATURES-----------------------------------------------
 

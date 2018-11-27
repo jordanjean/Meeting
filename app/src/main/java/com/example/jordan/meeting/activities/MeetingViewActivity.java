@@ -247,9 +247,10 @@ public class MeetingViewActivity extends AppCompatActivity implements android.vi
                     break;
 
                 case MAPS_REQUEST_CODE:
+                    Log.d(tag, "Coming back from MapActivity");
 
-                    /* Resetting clickable text field feedback */
-                    textLocation.setTextColor(0);
+                    /* Resetting feedback */
+                    refresh();
                     break;
 
                 case GoogleCalendarTask.ACCOUNT_REQUEST_CODE:
@@ -284,6 +285,11 @@ public class MeetingViewActivity extends AppCompatActivity implements android.vi
                     refresh();
                     break;
             }
+        } else {
+            Log.d(tag, "result code not OK");
+
+            /* Refreshing */
+            refresh();
         }
     }
 

@@ -216,7 +216,7 @@ public class MeetingEditActivity extends AppCompatActivity implements android.vi
 
             case R.id.action_save:
                 Log.d(tag, "Action save");
-                Meeting meeting = new Meeting();
+                meeting = new Meeting();
                 if (editTextName.getText().toString().equals(""))
                     meeting.name = "Meeting Name";
                 else

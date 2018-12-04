@@ -125,6 +125,7 @@ public class GoogleCalendarTask extends AsyncTask<Void, Void, String> {
             e.printStackTrace();
             return null;
         }
+        Log.d(tag, "Permission OK");
 
         Event event = new Event()
                 .setSummary(meeting.name)
@@ -141,6 +142,7 @@ public class GoogleCalendarTask extends AsyncTask<Void, Void, String> {
             e.printStackTrace();
             return null;
         }
+        Log.d(tag, "Parsing meeting date OK");
 
         EventDateTime start = new EventDateTime()
                 .setDateTime(startDateTime);
@@ -188,7 +190,7 @@ public class GoogleCalendarTask extends AsyncTask<Void, Void, String> {
     protected void onPostExecute(String event) {
         Log.d(tag, "GoogleCalendarTask onPostExecute");
 
-        if(!feedback && !retry){
+        if(!feedback && !retry && event!= null){
 
             /* Finishing editing activity */
             activity.finish();
